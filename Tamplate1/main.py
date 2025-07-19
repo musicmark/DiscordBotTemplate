@@ -116,6 +116,6 @@ async def start(ctx):
         if hasattr(cog, "main") and callable(getattr(cog, "main")):
             await cog.main(ctx)
             result.append(name)
-    await ctx.send(f"Ran {len(result)} commands. ({', '.join(result)})"
+    await ctx.send(f"Ran {len(result)} commands. ({', '.join(result)})")
 
 bot.run(TOKEN)
