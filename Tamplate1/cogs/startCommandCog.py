@@ -5,7 +5,7 @@ class Commands(commands.Cog):
         self.bot = bot
 
     async def main(self, ctx):
-      pass
+        pass
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Commands(bot))
